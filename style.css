@@ -1,0 +1,120 @@
+*{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.logo{
+    font-weight: 800;
+    font-size: 36px;
+}
+
+h1{
+    font-size: 36px;
+    font-weight: 800;
+}
+
+p{
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.header{
+    display: flex;
+    background-color: #1F2937;
+    color: #F9F4F8;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    justify-items: center;
+    max-width: 60%;
+}
+
+.container-one{
+    display: flex;
+    background-color: #1F2937;
+    color: #F9F4F8;
+    align-items: center;
+    justify-items: center;
+    max-width: 60%;
+    gap: 80px;
+    padding: 20px;
+}
+
+.title1-1{
+    margin: 0px;
+    padding: 0px;
+    font-size: 42px;
+    align-items: center;
+}
+
+button{
+    margin: 0px;
+    padding: 0px;
+    background-color: #3882F6;
+    color: #F9F4F8;
+    font-size: 20px;
+    font-weight: 800;
+    border-radius: 15px;
+    width: 100px;
+    height: 50px;
+}
+
+.subcont1-1{
+    max-width: 400px;
+}
+.subcont1-2{
+    max-width: 600px;
+    height: auto;
+}
+
+.container-two{
+    display: flex;
+    flex-direction: column;
+    background-color: #F9F4F8;
+    color: #1F2937;
+    align-items: center;
+    justify-items: center;
+    padding: 100px;
+}
+.subcont2-1{
+    display: flex;
+    align-content: space-between;
+    align-items: center;
+    justify-content: space-between;
+    width: 60%;
+}
+.info{
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+}
+
+.container-three{
+    display: flex;
+    flex-direction: column;
+    background-color: #F9F4F8;
+    color: #1F2937;
+    width: 60%;
+    padding: 100px;
+    background-color: #E5E7EB;
+}
+h2{
+    text-align: left;
+    font-weight: lighter;
+    font-size: 24px;
+    font-style: italic;
+    color: #1F2937;
+}
+.author{
+    display: flex;
+    justify-content: right;
+}
+a {
+    text-decoration: none;
+    color: #F9F4F8;
+  }
+
+ul{
+    list-style-type: none;
+    display: flex;
+    gap: 16px;
+}
