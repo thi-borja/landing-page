@@ -23,9 +23,8 @@ p{
     color: #F9F4F8;
     justify-content: space-between;
     align-items: center;
-    padding: 20px;
-    justify-items: center;
-    max-width: 60%;
+    padding: 15px;
+    width: 100%;
 }
 
 .container-one{
@@ -33,10 +32,10 @@ p{
     background-color: #1F2937;
     color: #F9F4F8;
     align-items: center;
-    justify-items: center;
-    max-width: 60%;
-    gap: 80px;
-    padding: 20px;
+    justify-content: center;
+    gap: 320px;
+    padding: 15px;
+    width: 100%;
 }
 
 .title1-1{
@@ -73,7 +72,7 @@ button{
     color: #1F2937;
     align-items: center;
     justify-items: center;
-    padding: 100px;
+    padding: 50px;
 }
 .subcont2-1{
     display: flex;
@@ -91,10 +90,8 @@ button{
 .container-three{
     display: flex;
     flex-direction: column;
-    background-color: #F9F4F8;
     color: #1F2937;
-    width: 60%;
-    padding: 100px;
+    padding: 80px;
     background-color: #E5E7EB;
 }
 h2{
@@ -103,6 +100,7 @@ h2{
     font-size: 24px;
     font-style: italic;
     color: #1F2937;
+    width:auto;
 }
 .author{
     display: flex;
@@ -117,4 +115,22 @@ ul{
     list-style-type: none;
     display: flex;
     gap: 16px;
+}
+
+footer{
+    color: #E5E7EB;
+    margin-top: 20px;
+    background-color: #1F2937;
+    width: 100%;
+    text-align: center;
+}
+.container-four{
+    display: flex;
+    background-color: #3882F6;
+    color:#F9F4F8;
+    align-items: center;
+    margin-top: 20px;
+    padding: 50px;
+    border-radius: 50px;
+    gap: 25px;
 }
